@@ -484,12 +484,15 @@ footer .footer-below {
     background:#f04949;
 }
 .skills .html {
+    padding: 16px;
     background:#EE742B;
 }
 .skills .css {
+    padding:11px;
     background:#39d084;
 }
 .skills .rails{
+    padding: 16px;
     background:#D0B23D;
 }
 .skills .ps:hover,.skills .rails:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
