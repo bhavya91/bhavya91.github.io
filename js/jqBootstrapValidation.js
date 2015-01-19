@@ -16,7 +16,7 @@
 		options: {
 			prependExistingHelpBlock: false,
 			sniffHtml: true, // sniff for 'required', 'maxlength', etc
-			preventSubmit: true, // stop the form submit event from firing if validation fails
+			preventSubmit: true, // stop the form submit event from firing if fails
 			submitError: false, // function called if there is an error when trying to submit
 			submitSuccess: false, // function called just before a successful submit event is sent to the server
             semanticallyStrict: false, // set to true to tidy up generated HTML output
@@ -182,14 +182,14 @@
             // ---------------------------------------------------------
             //                                                     EMAIL
             // ---------------------------------------------------------
-            if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "email") {
+            /*if ($this.attr("type") !== undefined && $this.attr("type").toLowerCase() === "email") {
               message = "Not a valid email address<!-- data-validator-validemail-message to override -->";
               if ($this.data("validationValidemailMessage")) {
                 message = $this.data("validationValidemailMessage");
               } else if ($this.data("validationEmailMessage")) {
                 message = $this.data("validationEmailMessage");
               }
-              $this.data("validationValidemailMessage", message);
+              $this.data("validationValidemailMessage", message);*/
             }
             // ---------------------------------------------------------
             //                                                MINCHECKED
@@ -787,12 +787,12 @@
 				type: "shortcut",
 				shortcut: "validemail"
 			},
-			validemail: {
+			/*validemail: {
 				name: "Validemail",
 				type: "regex",
 				regex: "[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\\.[A-Za-z]{2,4}",
 				message: "Not a valid email address<!-- data-validator-validemail-message to override -->"
-			},
+			},*/
 			passwordagain: {
 				name: "Passwordagain",
 				type: "match",
