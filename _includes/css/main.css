@@ -22,6 +22,9 @@ p.small {
 .line{
     font-family: 
 }
+#skills{
+    background-color: rgb(219, 176, 190);
+}
 a,
 a:hover,
 a:focus,
@@ -160,6 +163,11 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+.image img{
+    width:360px;
+    height:260px;
+
 }
 
 #portfolio .portfolio-item {
