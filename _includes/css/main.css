@@ -38,6 +38,8 @@ a.active {
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 color: #ffffff;
 background-color: #18BC9C;
+border-radius: 12px;
+}
 }
 
 h1,
