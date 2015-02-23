@@ -6,6 +6,9 @@
 header{
     background-image: url(../img/portfolio/b.jpg);
 }
+section.success{
+    background-image: url(../img/portfolio/8.jpg);
+}
 body {
     overflow-x: hidden;
 }
@@ -160,7 +163,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }};
+   /* background: #{{ site.color.primary }};*/
 }
 
 @media(max-width:767px) {
