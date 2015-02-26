@@ -156,7 +156,7 @@ section {
 }
 
 section h2 {
-    padding-bottom: 20px;
+    
     margin: 0;
     font-size: 3em;
 }
@@ -436,15 +436,17 @@ footer .footer-below {
 }
 
 .skills .span3 {
+    margin-bottom : 50px;
     width:235px;
     overflow: hidden;
 }
 .skills .span5 {
-    width:470px;
-    text-align:left;
-    padding:47px 0;
+    width:500px;
+    margin-left:50px;
+   /* text-align:left;*/
+   /* padding:47px 0;*/
 }
-.skills .ps, .skills .ai, .skills .html, .skills .css ,.skills .rails{
+.skills .ps, .skills .ai, .skills .html, .skills .css ,.skills .rails,.skills .testing{
     padding:21px;
     width:140px;
     height:140px;
@@ -477,10 +479,14 @@ footer .footer-below {
     padding: 16px;
     background:#D0B23D;
 }
-.skills .ps:hover,.skills .rails:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
+.skills .testing{
+    padding: 16px;
+    background:#AC87B9;
+}
+.skills .ps:hover,.skills .rails:hover,.skills .testing:hover, .skills .ai:hover, .skills .html:hover, .skills .css:hover {
     border:8px solid #fff;
 }
-.skills .ps h3, .skills .ai h3, .skills .rails h3,.skills .html h3, .skills .css h3 {
+.skills .ps h3, .skills .ai h3, .skills .rails h3,.skills .testing h3,.skills .html h3, .skills .css h3 {
     color:#fff;
     font-size: 3.4em;
     font-weight: normal;
@@ -542,6 +548,12 @@ footer .footer-below {
 .rails2{
     width:75%;
     background:#D0B23D;
+    -moz-animation:photoshop 2s ease-out;
+    -webkit-animation:photoshop 2s ease-out;
+}
+.testing2{
+    width:90%;
+    background:#AC87B9;
     -moz-animation:photoshop 2s ease-out;
     -webkit-animation:photoshop 2s ease-out;
 }
